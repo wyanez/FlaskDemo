@@ -25,11 +25,3 @@ def current_datetime(format):
 if __name__ == "__main__":
     app.run(debug=True)
 
-# app.py
-# This is a simple Flask API with two endpoints: /
-# 1. The root endpoint ("/") returns a welcome message.
-# 2. The "/about" endpoint returns version and author information.
-# 3. The "/datetime" endpoint returns the current date and time in either UTC or local format.
-# To run the API, use the command: python app.py
-# The API will be accessible at http://127.0.0.1:5000/
-
